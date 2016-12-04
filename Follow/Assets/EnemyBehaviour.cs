@@ -24,4 +24,10 @@ public class EnemyBehaviour : MonoBehaviour {
         // Updating position
         transform.position = transform.position + velocity * Time.deltaTime;
 	}
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.tag == "Player") {
+            Destroy(other.gameObject);
+        }
+    }
 }
