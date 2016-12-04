@@ -24,3 +24,6 @@
     - Colocar no start um InvokeRepeating e explicar o funcionamento
     - Usar com prefab do enemy vai dar pau por desconhecimento do player
     - Pegar player com FindObjectsWithTag()
+7. Desafios
+    - Fazer o player se mover
+    - Zumbi poder atirar
